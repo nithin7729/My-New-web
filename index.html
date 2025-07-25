@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: linear-gradient(135deg, #07eded, #ed07a0, #39ed07);
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 40px;
+      letter-spacing: 2px;
+    }
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 220px;
+    }
+    .main-btn {
+      padding: 15px 0;
+      background: #0763ed;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .main-btn:hover {
+      background: #376ecb;
+    }
+  </style>
+</head>
+<body>
+  <h1>Nithin Welcomes You</h1>
+  <div class="button-container">
+    <button class="main-btn" onclick="window.location.href='https://nithin7.pythonanywhere.com/student/'">Student App</button>
+    <button class="main-btn" onclick="window.location.href='https://nithin7.pythonanywhere.com/calculator/'">Calculator</button>
+    <button class="main-btn" onclick="window.location.href='https://youtube.com'">YouTube</button>
+  </div>
+</body>
+</html>
